@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   description: 'The AI-Powered Cognitive Bridge for Web Accessibility. Make any webpage accessible for neurodivergent users with AI-powered features.',
   keywords: ['accessibility', 'neurodivergent', 'dyslexia', 'ADHD', 'autism', 'chrome extension', 'AI'],
   authors: [{ name: 'EasyPage Team' }],
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/logo.png', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: 'EasyPage — Clarity for every brain',
     description: 'AI-powered Chrome extension making the web accessible for neurodivergent users',

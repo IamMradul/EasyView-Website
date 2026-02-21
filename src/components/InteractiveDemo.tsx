@@ -124,7 +124,7 @@ export default function InteractiveDemo() {
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.5 + index * 0.1 }}
-                  className="px-4 py-2 bg-gradient-to-r from-purple-100 to-pink-100 rounded-full text-sm font-semibold text-purple-700 border border-purple-200"
+                  className="px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full text-sm font-bold text-gray-800 border border-purple-300 shadow-sm"
                 >
                   {category}
                 </motion.span>

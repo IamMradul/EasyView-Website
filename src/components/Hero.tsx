@@ -5,7 +5,7 @@ import { Sparkles, Download, Github, ShieldCheck, Volume2, CheckCircle2, Brain, 
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center relative px-6 py-20 overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative px-6 pt-14 pb-20 overflow-hidden">
       {/* Floating Background Elements */}
       <motion.div
         className="absolute top-20 left-10 w-64 h-64 bg-purple-300/20 rounded-full blur-3xl"

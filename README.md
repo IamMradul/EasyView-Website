@@ -1,4 +1,4 @@
-# EasyPage 🌈
+# EasyPage 
 
 ![EasyPage Logo](public/logo.png)
 
@@ -70,32 +70,6 @@ easypage/
 └── README.md
 ```
 
-## ⚙️ Getting Started
-
-### 1) Install dependencies
-
-```bash
-npm install
-```
-
-### 2) Start development server
-
-```bash
-npm run dev
-```
-
-### 3) Open in browser
-
-```text
-http://localhost:3000
-```
-
-## 📜 Available Scripts
-
-- `npm run dev` - Run local development server
-- `npm run build` - Build production bundle
-- `npm run start` - Run production server
-- `npm run lint` - Run lint checks
 
 ## 🔗 Important Routes
 

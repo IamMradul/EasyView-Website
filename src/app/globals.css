@@ -88,3 +88,101 @@ body {
   font-feature-settings: 'kern' 1;
   font-kerning: normal;
 }
+
+.dark body {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+.dark .theme-root .bg-white\/70 {
+  background-color: rgba(15, 23, 42, 0.72);
+}
+
+.dark .theme-root .bg-white\/60 {
+  background-color: rgba(15, 23, 42, 0.65);
+}
+
+.dark .theme-root .bg-white\/65 {
+  background-color: rgba(15, 23, 42, 0.68);
+}
+
+.dark .theme-root .bg-white\/75 {
+  background-color: rgba(15, 23, 42, 0.76);
+}
+
+.dark .theme-root .bg-white\/80 {
+  background-color: rgba(15, 23, 42, 0.8);
+}
+
+.dark .theme-root .bg-white {
+  background-color: rgba(15, 23, 42, 0.92);
+}
+
+.dark .theme-root .border-white\/50 {
+  border-color: rgba(100, 116, 139, 0.5);
+}
+
+.dark .theme-root .border-white\/60 {
+  border-color: rgba(100, 116, 139, 0.55);
+}
+
+.dark .theme-root .border-white\/70 {
+  border-color: rgba(100, 116, 139, 0.6);
+}
+
+.dark .theme-root .bg-gray-100 {
+  background-color: rgba(30, 41, 59, 0.9);
+}
+
+.dark .theme-root .text-gray-800 {
+  color: #f8fafc;
+}
+
+.dark .theme-root .text-gray-700 {
+  color: #e2e8f0;
+}
+
+.dark .theme-root .text-gray-600 {
+  color: #cbd5e1;
+}
+
+.dark .theme-root .text-gray-500 {
+  color: #94a3b8;
+}
+
+.dark .theme-root .text-gray-400 {
+  color: #cbd5e1;
+}
+
+.dark .theme-root .text-purple-900 {
+  color: #f3e8ff;
+}
+
+.dark .theme-root .text-purple-700,
+.dark .theme-root .text-purple-600 {
+  color: #d8b4fe;
+}
+
+.dark .theme-root .bg-purple-50,
+.dark .theme-root .from-purple-100,
+.dark .theme-root .to-pink-100 {
+  background-color: rgba(49, 46, 129, 0.35);
+}
+
+.dark .theme-root .from-purple-50 {
+  --tw-gradient-from: rgba(49, 46, 129, 0.28) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(49, 46, 129, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark .theme-root .to-blue-50 {
+  --tw-gradient-to: rgba(30, 64, 175, 0.18) var(--tw-gradient-to-position);
+}
+
+.dark .theme-root .from-transparent.to-purple-50\/30 {
+  --tw-gradient-to: rgba(15, 23, 42, 0.25) var(--tw-gradient-to-position);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1e293b;
+}

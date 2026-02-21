@@ -5,7 +5,7 @@ import { Code2, Cpu, Lock, Zap } from 'lucide-react';
 
 export default function TechDetails() {
   const techStack = [
-    { name: 'Manifest V3', color: 'bg-purple-100 text-purple-700 border-purple-200' },
+    { name: 'Manifest V3', color: 'bg-purple-100 text-purple-400 border-purple-200' },
     { name: 'Google Gemini', color: 'bg-blue-100 text-blue-700 border-blue-200' },
     { name: 'OpenRouter AI', color: 'bg-green-100 text-green-700 border-green-200' },
     { name: 'Privacy First', color: 'bg-orange-100 text-orange-700 border-orange-200' },
